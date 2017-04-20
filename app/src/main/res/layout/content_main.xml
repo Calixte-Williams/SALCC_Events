@@ -23,7 +23,8 @@
         android:layout_height="449dp"
         tools:layout_editor_absoluteX="9dp"
         tools:layout_editor_absoluteY="1dp"
-        android:layout_marginBottom="0dp">
+        android:layout_marginBottom="0dp"
+        tools:ignore="MissingConstraints">
 
         <com.prolificinteractive.materialcalendarview.MaterialCalendarView xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/calendarView"
@@ -33,8 +34,8 @@
             app:mcv_showOtherDates="all"
 
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="9dp"
-            tools:layout_editor_absoluteY="0dp" />
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="-1dp" />
 
     </android.support.constraint.ConstraintLayout>
 
